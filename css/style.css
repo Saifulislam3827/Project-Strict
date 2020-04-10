@@ -1,0 +1,503 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/******************************************************
+************** Header Section code Starts**************
+*******************************************************/
+.header-section{
+	width: 100%;
+}
+.header-section .bg-light {
+    background-color: #f8f9fa !important;
+    padding: 20px 30px;
+}
+.header-section img{
+    margin-left: 40px;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-nav .active > .nav-link:hover{
+	color: #15a4fa;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #15a4fa;
+}
+
+/******************************************************
+************** Header Section Code Ends****************
+*******************************************************/
+
+
+/******************************************************
+************** Banner Section Code Starts**************
+*******************************************************/
+
+.banner-section{
+	width: 100%;
+	background: url(../images/Banner.png) center no-repeat;
+	background-size: cover;
+	padding: 95px 0px;
+}
+.banner-section .inner-banner{
+	padding: 90px 0px;
+}
+.banner-section .inner-banner h1{
+	color: #fff;
+	font-size: 85px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.banner-section .inner-banner .line{
+	width: 420px;
+}
+.banner-section .inner-banner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
+.banner-section .inner-banner .btn-div{
+	width: 100%;
+	margin-bottom: 60px;
+}
+.banner-section .btn-div .btn-info{
+	padding: 8px 20px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #15a4fa;
+}
+.banner-section .btn-div .btn-info:hover{
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	transition: .5s;
+}
+.banner-section .inner-banner .arrow{
+	padding-top: 40px;
+	position: relative;
+}
+.banner-section .inner-banner .arrow img{
+	margin-top: 70px;
+	position: absolute;
+}
+/******************************************************
+************** Banner Section Code Ends****************
+*******************************************************/
+
+/******************************************************
+************** Typo Section Code Starts****************
+*******************************************************/
+
+.typo-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+.typo-section h3{
+	font-size: 45px;
+	line-height: 55px;
+	color: #2d3950;
+}
+.typo-section p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999999;
+}
+/******************************************************
+************** Typo Section Code Ends******************
+*******************************************************/
+
+/******************************************************
+************** Feature Section Code Starts*************
+*******************************************************/
+
+.feature-section{
+	width: 100%;
+	padding: 60px 0px;
+}
+.feature-section .inner-feature{
+	width: 100%;
+	padding: 10px 0px;
+}
+.feature-section .inner-feature img{
+	margin-bottom: 20px;
+}
+.feature-section .inner-feature h4{
+	font-size: 20px;
+	line-height: 34px;
+}
+.feature-section .inner-feature p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999999;
+}
+/******************************************************
+************** Feature Section Code Ends***************
+*******************************************************/
+
+/******************************************************
+************** Portfolio Section Code Starts***********
+*******************************************************/
+
+.portfolio-section{
+	width: 100%;
+	padding: 60px 0px;
+	background: #f6f9f9;
+	position: relative;
+}
+.portfolio-section h3{
+	font-size: 30px;
+	line-height: 38px;
+}
+.portfolio-section p{
+	color: #999999;
+}
+
+.portfolio-inner{
+	width: 100%;
+	position: relative;
+	margin-top: 25px;
+}
+.portfolio-inner .port-inner{
+	width: 103%;
+	height: 100%;
+	left: 0;
+	top: 0;
+    position: absolute;
+    background: rgb(21,164,250, .8 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+}
+.portfolio-inner:hover .port-inner{
+	display: block;
+	transition: 1s;
+}
+.port-inner ul{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+.port-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.port-inner ul li a{
+	margin:0px 5px; 
+}
+.port-inner ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 22px;
+}
+
+/******************************************************
+************** Portfolio Section Code Ends*************
+*******************************************************/
+
+/******************************************************
+************** Contact Section Code Starts*************
+*******************************************************/
+
+.contact-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/contact.png) center top no-repeat;
+	background-size: cover;
+}
+.contact-section h1{
+	font-size: 44px;
+	line-height: 48px;
+	color: #fff;
+}
+.contact-section p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999999;
+	margin-bottom: 40px;
+}
+.contact-section .form-control{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	background: transparent;
+	border: 1px solid #999;
+	border-radius: 3px;
+}
+.contact-section .left{
+	font-size: 14px;
+	color: #fff;
+}
+.contact-section .btn-div .btn-info{
+	padding: 5px 40px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #15a4fa;
+	font-size: 14px;
+	line-height: 24px;
+}
+.contact-section .btn-div .btn-info:hover{
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	color: #fff;
+	transition: .5s;
+}
+/******************************************************
+************** Contact Section Code Ends***************
+*******************************************************/
+
+/******************************************************
+************** Footer Section Code Starts**************
+*******************************************************/
+
+.footer-section{
+	width: 100%;
+	padding: 10px 0px;
+	background: #f6f9f9;
+}
+.footer-section p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #999999;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.footer-section .social-icons{
+	width: 100%;
+	text-align: right;
+	margin-top: 5px;
+}
+.footer-section .social-icons ul li{
+	display: inline-block;
+	list-style: none;
+}
+.footer-section .social-icons ul li a{
+	text-align: center;
+}
+.footer-section .social-icons ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 0px;
+	background: #15A4FA;
+	border: 1px solid #15A4FA;
+	color: #fff;
+	font-size: 22px;
+}
+.footer-section .social-icons ul li a i:hover{
+	background: transparent;
+	border: 1px solid #15A4FA;
+	color: #15A4FA;
+}
+/******************************************************
+************** Footer Section Code Ends****************
+*******************************************************/
+
+/******************************************************
+************** Responsive Code Starts******************
+*******************************************************/
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+.portfolio-inner img{
+	width: 100%;
+}
+.portfolio-inner .port-inner{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+    position: absolute;
+    background: rgb(21,164,250, .8 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+  
+.header-section img{
+    margin-left: 0px;
+}
+.portfolio-section{
+	width: 100%;
+	padding: 60px 0px;
+	background: #f6f9f9;
+	position: relative;
+}
+.portfolio-inner img{
+	width: 90%;
+}
+.portfolio-inner .port-inner{
+	width: 90%;
+	height: 100%;
+	left: 0;
+	top: 0;
+    position: absolute;
+    background: rgb(21,164,250, .8 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+}
+.port-inner ul{
+	position: absolute;
+	top: 35%;
+	left: 25%;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.header-section img{
+    margin-left: 0px;
+}
+.portfolio-inner img{
+	width: 100%;
+}
+.portfolio-inner .port-inner{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+    position: absolute;
+    background: rgb(21,164,250, .8 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+}
+.contact-section .btn-div .btn-info{
+	padding: 5px 40px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #15a4fa;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: -11%;
+}
+.footer-section .social-icons{
+	width: 100%;
+	text-align: right;
+	margin-top: -10%;
+}
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.header-section img{
+    margin-left: 0px;
+}
+.banner-section .inner-banner h1{
+	color: #fff;
+	font-size: 65px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.banner-section .inner-banner .line{
+	width: 100%;
+}
+.portfolio-inner img{
+	width: 100%;
+}
+.portfolio-inner .port-inner{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+    position: absolute;
+    background: rgb(21,164,250, .8 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+}
+.contact-section .btn-div .btn-info{
+	padding: 5px 40px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #15a4fa;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: -12%;
+}
+.footer-section p{
+	font-size: 10px;
+	font-weight: 400;
+	color: #999999;
+}
+.footer-section .social-icons ul li a i{
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 0px;
+	background: #15A4FA;
+	border: 1px solid #15A4FA;
+	color: #fff;
+	font-size: 15px;
+}
+.footer-section .social-icons{
+	width: 100%;
+	text-align: right;
+	margin-top: -35px;
+}
+  
+}
+
+/******************************************************
+************** Responsive Code Ends********************
+*******************************************************/
